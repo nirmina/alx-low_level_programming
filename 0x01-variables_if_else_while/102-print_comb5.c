@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-int firtDigit = 0, secondDigit;
+int firstDigit = 0, secondDigit;
 while (firstDigit <= 99)
 {
 secondDigit = firstDigit;
