@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * print_time_table - print the time table of a given number
+ * print_times_table - print the time table of a given number
  * @n: the number or input
  */
-void print_time_table(int n)
+void print_times_table(int n)
 {
 int mul;
 int prod;
