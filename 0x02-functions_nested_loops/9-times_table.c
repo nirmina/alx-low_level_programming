@@ -13,7 +13,7 @@ for (num = 0; num <= 9; num++)
 _putchar(48);
 for (mul = 1; mul <= 9; mul++)
 {
-_putchar('.');
+_putchar(',');
 _putchar(' ');
 prod = mul * num;
 if (prod <= 9)
