@@ -7,12 +7,12 @@
  * return: -
  */
 void print_buffer(char *b, int size)
-{	
+{
 int n = 0;
 int i;
 int j;
 if (size <= 0)
-{	
+{
 printf("\n");
 return;
 }
