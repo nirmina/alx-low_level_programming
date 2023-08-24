@@ -1,4 +1,6 @@
 #include <stdio.h>
+/* main - see code
+ */
 int main(void)
 {
 int n;
