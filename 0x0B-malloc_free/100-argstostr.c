@@ -21,7 +21,7 @@ return (length);
  */
 char *argstostr(int ac, char **av)
 {
-int a, b, c = 0, d = 0;
+int a, b = 0, c = 0, d = 0;
 char *str;
 if (ac == 0 || av == NULL)
 return (NULL);
