@@ -8,8 +8,7 @@
  */
 int _strlen(char *s)
 {
-int length;
-length = 0;
+int length = 0;
 while (s[length] != '\0')
 {
 length++;
@@ -24,10 +23,8 @@ return (length);
  */
 char *argstostr(int ac, char **av)
 {
-int a, b, c, d;
+int a, b, c = 0, d = 0;
 char *str;
-c = 0;
-d = 0;
 if (ac == 0 || av == NULL)
 return (NULL);
 for (a = 0; a < ac; a++, b++)
