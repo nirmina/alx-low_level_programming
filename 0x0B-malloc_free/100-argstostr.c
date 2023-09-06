@@ -25,9 +25,9 @@ int a, b = 0, c = 0, d = 0;
 char *str;
 if (ac == 0 || av == NULL)
 return (NULL);
-for (a = 0; a < ac; a++, b++)
+for (a = 0; a < ac; a++)
 b += _strlen(av[a]);
-str = malloc(sizeof(char) * b);
+str = malloc(sizeof(char) * (b + ac + 1));
 if (str == NULL)
 return (NULL);
 for (a = 0; a < ac; a++)
