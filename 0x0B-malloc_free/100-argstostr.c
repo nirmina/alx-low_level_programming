@@ -27,7 +27,7 @@ if (ac == 0 || av == NULL)
 return (NULL);
 for (a = 0; a < ac; a++, b++)
 b += _strlen(av[a]);
-str = malloc(sizeof(char) * b + 1);
+str = malloc(sizeof(char) * b);
 if (str == NULL)
 return (NULL);
 for (a = 0; a < ac; a++)
