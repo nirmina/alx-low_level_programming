@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * print_binary - a function that prints the binary representation of a number
- * @n: number to print in binary
+ * @n: number entered to print it in binary
  * Return: void
  */
 void print_binary(unsigned long int n)
